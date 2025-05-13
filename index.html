@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marián Demel | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marián Demel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#o-mne">O mně</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projekty">Projekty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero sekce -->
+    <div class="d-flex justify-content-center align-items-center w-100 bg-dark" style="height: 50vh;">
+        <div class="text-white text-center">
+            <h1 class="mb-3">Marián Demel</h1>
+            <h4 class="mb-3">Webový vývojář & designer</h4>
+            <a class="btn btn-outline-light btn-lg" href="#projekty" role="button">Moje projekty</a>
+        </div>
+    </div>
+    
+    <!-- sekce O mně -->
+    <div id="o-mne">
+        <section class="py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center gx-4">
+                    <div class="col-md-5">
+                        <div class="ms-md-2 ms-lg-5">
+                            <img class="img-fluid rounded-3" src="vector-flat-illustration-grayscale-avatar-600nw-2281862025.png" alt="Profilový obrázek">
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-1">
+                        <div class="ms-md-2 ms-lg-5">
+                            <span class="text-light">Kdo jsem</span>
+                            <h2 class="display-5 fw-bold text-white">O mně</h2>
+                            <p class="lead text-white">Jsem nadšený webový vývojář se zaměřením na vytváření moderních a responzivních webových aplikací (nebo si to alespoň myslím :D). Baví mě využívání jazyků jako je HTML, CSS, Javascript a práce s frameworkem Django.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<div id="projekty">
+  <section class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row align-items-center gx-4">
+        <div class="col-md-6">
+          <div class="ms-md-2 ms-lg-5">
+            <span class="text-light">Co dělám</span>
+            <h2 class="display-5 fw-bold text-white">Moje projekty</h2>
+            <div class="mb-4">
+              <h3 class="fw-bold text-white">Reviews</h3>
+              <p class="lead text-white">
+                Jednoduchá aplikace pomocí frameworku Django pro hodnocení míst. <a href="https://mariand.eu.pythonanywhere.com/">Navštivte stránku</a></p>
+            </div>
+            <div class="mb-4">
+              <h3 class="fw-bold text-white">Game of life</h3>
+              <p class="lead text-white">
+                Conwayova hra života – pomocí Javascriptu <a href="https://mariandemel.github.io/pva_3.d_demel/game_of_life_experiment/index.html">Můžete navštívit zde</a>
+              </p>
+            </div>
+            <div>
+              <h3 class="fw-bold text-white">Další projekt?</h3>
+              <p class="lead text-white">
+                Co to bude příště?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 offset-md-1">
+          <div class="ms-md-2 ms-lg-5">
+            <img class="img-fluid rounded-3" src="360.jpg" alt="Obrázek projektů">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
